@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv(override=True)
-sid1 = os.getenv("sid")
-token1 = os.getenv("token")
-from_tel = os.getenv("from_tel")
+sid1 = os.getenv("SID")
+token1 = os.getenv("TOKEN")
+from_tel = os.getenv("FROM_TEL")
 
 client = Client(sid1 , token1)
 print(sid1)
